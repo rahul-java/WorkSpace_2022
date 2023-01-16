@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<class name="max.bean.Father" table="f_mst">
+<id name="fid" column="f_id">
+<generator class="native"/>
+</id>
+<property name="name" length="11"  column="u_name"></property>
+<property name="add" column="u_add"></property>
+
+<list name="clist" cascade="save-update" lazy="true">
+<key column="f_id"/>
+<index column="indx"/>
+<one-to-many class="max.bean.Child"/>
+</list>
+</class>
+
+
+<class name="max.bean.Child" table="c_mst">
+<id name="cid" column="c_id">
+<generator class="native"/>
+</id>
+<property name="name" length="11"  column="u_name"></property>
+<property name="gndr" column="u_gndr"></property>
+</class>
+
+
+</hibernate-mapping>

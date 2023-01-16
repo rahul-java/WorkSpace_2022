@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;QuestionsTest/src/Find_Duplicate_in_Strings/S.java&apos;" deleteContents="false" description="Delete resource &apos;QuestionsTest/src/Find_Duplicate_in_Strings/S.java&apos;" element1="/QuestionsTest/src/Find_Duplicate_in_Strings/S.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1671007989791"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;QuestionsTest/src/Second_no_fond_in_Array&apos;" deleteContents="false" description="Delete resource &apos;QuestionsTest/src/Second_no_fond_in_Array&apos;" element1="/QuestionsTest/src/Second_no_fond_in_Array" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1670499243872"/>
+</session>

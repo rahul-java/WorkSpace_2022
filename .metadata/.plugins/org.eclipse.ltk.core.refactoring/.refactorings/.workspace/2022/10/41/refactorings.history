@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 11 resources" deleteContents="false" description="Delete 11 resources" element1="/QuestionsTest/src/max/Count_digit_in_array" element10="/QuestionsTest/src/max/Second_no_fond_in_Array" element11="/QuestionsTest/src/max/String" element2="/QuestionsTest/src/max/count_word_in_string" element3="/QuestionsTest/src/max/dinf_Spl_Char_remove" element4="/QuestionsTest/src/max/Dupicate_in_Array" element5="/QuestionsTest/src/max/Find_Duplicate_in_String" element6="/QuestionsTest/src/max/Find_Duplicate_in_Strings" element7="/QuestionsTest/src/max/Find_Maximum_no" element8="/QuestionsTest/src/max/How_revrse_word_in_string" element9="/QuestionsTest/src/max/remove_multiple_space_in_Array" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="11" stamp="1664674357353"/>
+</session>

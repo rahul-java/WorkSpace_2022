@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CRUD_JSP_Servlet_PostgreSQL_Emp_Project/src/main/webapp/edi-emp.jsp&apos; to &apos;edit-emp.jsp&apos;" description="Rename resource &apos;edi-emp.jsp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/edi-emp.jsp" name="edit-emp.jsp" stamp="1669992702734" updateReferences="true"/>
+</session>

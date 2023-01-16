@@ -1,0 +1,24 @@
+package Find_Second_Highest_No_in_Array;
+
+public class SecondHighestNoWithoutSorting {
+
+	public static void main(String[] args) {
+		int maximum,second_max,i;
+		maximum=second_max=0;
+		int[] arr= {12,2,2,14,32,66,9,10,99,123,101,100,112,114,123,123,111,123};
+		
+		for(i=0;i<arr.length;i++)
+		{
+			if(maximum<arr[i])
+			 {
+				second_max=maximum;
+				maximum=arr[i];
+		 	  }
+			if(maximum>arr[i]&&arr[i]<second_max)
+			 second_max=arr[i];
+		}
+		
+		System.out.println("Highest No : "+maximum);
+		System.out.println("Second Highest No : "+second_max);
+	}
+}

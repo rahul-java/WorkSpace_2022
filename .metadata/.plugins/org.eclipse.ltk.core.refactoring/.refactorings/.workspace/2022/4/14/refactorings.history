@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;30March2022&apos; to &apos;01April2022&apos;" description="Rename resource &apos;30March2022&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/30March2022" name="01April2022" stamp="1648789994969" updateReferences="true"/>&#x0A;<refactoring comment="Delete resource &apos;01April2022/src/max/Student.java&apos;" deleteContents="false" description="Delete resource &apos;01April2022/src/max/Student.java&apos;" element1="/01April2022/src/max/Student.java" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1648816087012"/>
+</session>

@@ -1,0 +1,56 @@
+package Comperable_And_Comperator;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortTest {
+
+	public static void main(String[] args) {
+		
+//		ArrayList<Integer> marks=new ArrayList<Integer>();
+//		marks.add(111);
+//		marks.add(222);
+//		marks.add(101);
+//		System.out.println(marks);
+//		
+//		Collections.sort(marks);
+//		System.out.println(marks);
+		
+		ArrayList<Employee> empList=new ArrayList<Employee>();
+		empList.add(new Employee(101,"Amit","111111"));
+		empList.add(new Employee(321,"Mohan","352525"));
+		empList.add(new Employee(121,"Zahir","252525"));
+		empList.add(new Employee(121,"Manoj","252525"));
+		System.out.println(empList);
+		
+		//Comparable
+		
+		System.out.println("-----------Comparable----------");
+		Collections.sort(empList);
+		System.out.println(empList);
+		System.out.println("=================================\n\n");
+		
+		ArrayList<Student> stdList=new ArrayList<Student>();
+		stdList.add(new Student(101,"Zamit","111111"));
+		stdList.add(new Student(321,"Mohan","352525"));
+		stdList.add(new Student(121,"Jack","252525"));
+		stdList.add(new Student(111,"Jack","252525"));
+		System.out.println(stdList);
+		
+		//Comparator
+		
+		System.out.println("-----------Comparator----------");
+		//Sorting by id
+		Collections.sort(stdList,new IdComparator());
+		System.out.println("*********Sorting by id***************");
+		System.out.println(stdList);
+		System.out.println("=================================\n\n");
+		
+		ArrayList<Student> stdList1=new ArrayList<>(stdList);
+		//sorting by name
+		Collections.sort(stdList1,new NameComparator());
+		System.out.println("*********Sorting by name***************");
+		System.out.println(stdList1);
+		System.out.println("=================================\n\n");
+	}
+}
